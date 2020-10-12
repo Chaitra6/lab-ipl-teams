@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="teams">
+    <ul *ngFor="let team of teams">
+      <li> <strong> {{ team.name }} </strong> </li>
+      <li>{{ team.website }}</li>
+      <li>{{ team.phoneNumber }}</li>
+      <li> <img src="{{ team.image }}" alt="image" height="200px" width="200px"> </li>
+    </ul>
+  </div>
+
+</div>

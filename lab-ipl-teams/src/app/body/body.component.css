@@ -1,0 +1,17 @@
+.container {
+  width: 90%;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-basis: 33.3333%;
+}
